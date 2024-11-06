@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+}
+div{
+ height: 300px;
+ width: 300px;   
+ background-color: green;
+}
+
+button {
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-style: solid;
+    border-width: 1px;
+    padding: 1px 7px 2px;
+    text-rendering: auto;
+    color: initial;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 11px system-ui;
+}
+
+.center {
+    position: absolute;
+    height: 50px;
+    width: 150px; 
+    left: 75px;
+    top: 75px;
+}
